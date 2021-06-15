@@ -1,7 +1,28 @@
 h1 {text-align: center;
 color: #005677;
-}
+text-transform: uppercase;
+background-color: #C4C4C4; }
+
 header {text-align: center;
-background-color: #E5E5E5;
-;}
-footer {text-align: center;}
+background-color: #C4C4C4 }
+
+h2 {text-transform: uppercase;
+    color: #005677;
+background-color: #C4C4C4;
+font-size: 20px;
+font-weight: 700;
+line-height: 16.94px;
+}
+
+main { max-width: 1041px; 
+    margin: 50px auto; }
+
+.datos {font-style: italic;
+font-weight: bold;}
+
+.anios {font-weight: bold;}
+    
+footer {text-align: center;
+background-color: #005677;
+text-transform: uppercase;
+color: #FFFFFF;}
