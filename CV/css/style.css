@@ -1,28 +1,37 @@
-h1 {text-align: center;
-color: #005677;
-text-transform: uppercase;
-background-color: #C4C4C4; }
+/**Clases generales**/
+.datos {font-style: italic;
+        font-weight: bold;}
+.anios {font-weight: bold;}
+.redes {width: 20px;
+height: 20px;}
 
+#tel {font-size: 20px;}
+
+/**Header**/
 header {text-align: center;
-background-color: #C4C4C4 }
+        background-color: #C4C4C4; 
+        line-height: 2;}
 
+/**Main Content**/
+main {max-width: 1041px; 
+    margin: 50px auto; }
+h1 {text-align: center;
+    color: #005677;
+    text-transform: uppercase;
+    background-color: #C4C4C4; }
 h2 {text-transform: uppercase;
     color: #005677;
-background-color: #C4C4C4;
-font-size: 20px;
-font-weight: 700;
-line-height: 16.94px;
-}
+    background-color: #C4C4C4;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16.94px;
+    letter-spacing: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 
-main { max-width: 1041px; 
-    margin: 50px auto; }
-
-.datos {font-style: italic;
-font-weight: bold;}
-
-.anios {font-weight: bold;}
-    
+/**Footer**/
 footer {text-align: center;
-background-color: #005677;
-text-transform: uppercase;
-color: #FFFFFF;}
+        font-size: 24px;
+        background-color: #005677;
+        text-transform: uppercase;
+        color: #FFFFFF;}
