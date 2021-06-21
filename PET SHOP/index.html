@@ -5,30 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel=stylesheet href="css\style.css">
+    
 </head>
 <body>
     <header>
-    <!-- Hacer dos secciones en el header -->
-    <p> Grandes ofertas en comederos</p>
-    <p>Español ARS</p>
-    <img src="img\Logo.png">
-    <!-- Poner las huellitas como viñetas y la barra nav, agregar links en blanco -->
-    <ul type="none">
-        <li>Categorias</li>
-        <li>Pets</li>
-        <li>Nosotros</li>
-        <li>Contactanos</li>
-    </ul>
+    <section class=primero>
+        <p> Grandes ofertas en comederos</p>
+        <p>Español ARS</p>
+    </section>
+    <section class=segundo>
+        <img src="img\Logo.png">
+        <nav class=menu> 
+        <ul type="none">
+            <li><i class="fas fa-paw"></i>Categorias</li>
+            <li><i class="fas fa-paw"></i>Pets</li>
+            <li><i class="fas fa-paw"></i>Nosotros</li>
+            <li><i class="fas fa-paw"></i>Contactanos</li>
+        </ul>
+        </nav>
+    </section>
+    
     </header>
     <main>
-        <section id="Banner">
-        <img src="img\bowl-and-pet-daities-on-green-background 1.png">
-        <p>¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos con descuentos!</p>
-        <p>COMEDEROS</p>
+        <section id="banner">
+        <p id=b1>¡Es un placer tenerte aquí!</p>
+        <p id=b2>¡Comederos con descuentos!</p>
+        <p id=b3>COMEDEROS</p>
         </section>
-        <section id="Productos destacados">
-        <img src="img\pawprint 1.png">
+
+        <section id="destacados">
+        <i id=paw class="fas fa-paw"></i>
         <p>Productos Destacados</p>
         <ul type="none">
             <li> Comederos </li>
@@ -36,23 +45,36 @@
             <li> Comida </li>
         </ul>
         <img src="img\churrasquito.png">
-        <p>Juguete churrasquito $150</p>
+        <p>Juguete churrasquito <span>$150</span></p>
         <img src="img\comedero.png">
-        <p>Comedero para perro $250</p>
+        <p>Comedero para perro <span>$250</span></p>
         <img src="img\Huesito.png">
-        <p>Juguete huesito $150</p>
+        <p>Juguete huesito <span>$150</span></p>
         </section>
-        <section id="Contactanos">
+
+        <section class="contactanos">
             <p>Contáctanos</p>
             <ul type="none">
                 <li>Nombre y apellido</li>
                 <li>Ingresá tu correo electrónico</li>
                 <li>Teléfono</li>
             </ul>
+            <p>Resetar</p>
+            <p>Enviar</p>
+            <p>Suscríbete para más novedades</p>
+            <p>Ingresá tu correo electrónico</p>
+            <p>Suscribirme</p>
+        </section id=datos>
+        <section class=datos>
+
         </section>
     </main>
     <footer>
+        <section class=primero>
+            <p>Todos los derechos reservados Front End</p>
+        </section>
 
     </footer>
+
 </body>
 </html>
