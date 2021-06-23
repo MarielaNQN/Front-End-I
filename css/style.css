@@ -1,4 +1,6 @@
-h1 {color:violet;
+body {background-image: url('../img/wallhaven-6ke9eq_2560x1920.png');
+    font-family: 'Mitr', sans-serif;}
+h1 {color:rgb(230, 90, 230);
     font-family:verdana;
     text-align: center;}
 h3 {text-align: center;

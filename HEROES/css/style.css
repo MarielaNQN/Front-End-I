@@ -1,0 +1,21 @@
+/********Generales*********/
+* {font-family: 'Roboto', sans-serif;}
+
+/*********header**********/
+#bardiscount {
+    font-size: 15px;
+    background-color: #1CD1B0;
+    height: 38px;
+margin: 0%;}
+h1 {font-size: 40px;
+    background-color: #00669F;
+    height: 101px;
+    margin: 0% 0% 100px 0%;}
+
+/********main********/
+/**sections**/
+#batman1 , #batman2 , #harley {
+    box-sizing: border-box
+    ;
+}
+
