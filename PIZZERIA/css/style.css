@@ -1,0 +1,63 @@
+/*****GENERAL*****/
+* {font-family: 'Roboto', sans-serif;}
+
+main , section, #top, #primera {display: flex;}
+
+header , footer {background-color: #222222;
+    font-size: 16px;
+    color:#F3F3F3 ;
+    display: flex;}
+
+/*****header*****/
+header {height: 100px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    justify-content: space-between;}
+
+ul#primera li { padding: 20px;}
+
+/****main****/
+main {justify-content: center;
+background-color: #E5E5E5;}
+main section {
+    width: 50%;
+    height: 350px;
+}
+section h3 {
+    color: #FC200C;}
+section span {
+    color: white;}
+#delivery {background-image: url('../img/delivery.png');
+background-repeat: no-repeat;
+border-radius: 5px;}
+
+#podio {
+    background-color: white;
+    flex-direction: column;}
+
+#podio article {
+    flex-direction: column;
+}
+
+#podio img {
+    height: 129px;
+    width: 92px;
+    border-radius: 5px;
+    padding-top: 40px;
+}
+
+#sabores {
+    justify-content: space-around;
+}
+
+
+/*****footer*****/
+footer {height: 150px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    justify-content: space-between;}
+
+footer img {padding: 25px;}
+
+ul#segunda li {padding-top: 3px;
+    padding-bottom: 5px;}
