@@ -5,24 +5,47 @@ body {font-family: 'Roboto', sans-serif;}
 .primero {
     color:white;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .segundo {
     color:white;
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
 }
+.segundo img {
+    height: 23px;
+    width: 166.38px;}
+
 /*nav menu*/
+.menu {display: flex;
+flex-direction: row;
+gap: 20px;}
 
 /***main content***/
 /*banner*/
 #banner {background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
 background-size:cover;
         height: 409px;}
+/* display: flex;} */
+/* flex-direction: column; */
+/* align-items: flex-end;} */
+
+
 #b2 , #b3 {font-size: 16px;}
 #b1 {color: #3C2313;
     font-size: 30px;
     background-color: #FFFFFF;}
 #b3 {background-color: #F0A83E;
-    color:#FFFFFF ;}
+    color:#FFFFFF ;
+
+}
 
 /*Productos destacados*/
 #paw {color: #F0A83E;
