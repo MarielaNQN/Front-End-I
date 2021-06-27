@@ -1,37 +1,44 @@
 /**Clases generales**/
 .datos {font-style: italic;
         font-weight: bold;}
-.anios {font-weight: bold;}
-.redes {width: 20px;
-height: 20px;}
 
-#tel {font-size: 20px;}
 
 /**Header**/
 header {text-align: center;
-        background-color: #C4C4C4; 
+        background-color: #E5E5E5;
+        height: 247px; 
         line-height: 2;}
+h1 {text-align: center;
+        color: #005677;
+        text-transform: uppercase;
+        background-color: #C4C4C4; 
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 29,64px;
+letter-spacing: 5px;}
 
 /**Main Content**/
 main {max-width: 1041px; 
     margin: 50px auto; }
-h1 {text-align: center;
-    color: #005677;
-    text-transform: uppercase;
-    background-color: #C4C4C4; }
+
 h2 {text-transform: uppercase;
     color: #005677;
     background-color: #C4C4C4;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 16.94px;
+    line-height: 84.69%;
     letter-spacing: 0.5em;
+    align-content: center;
+    padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 /**Footer**/
 footer {text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         background-color: #005677;
         text-transform: uppercase;
-        color: #FFFFFF;}
+        color: #FFFFFF;
+        padding: 5px;}
+a {padding: 0 20px;
+    text-decoration: none;}

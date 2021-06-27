@@ -1,21 +1,38 @@
 /********Generales*********/
-* {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif;}
 
 /*********header**********/
 #bardiscount {
     font-size: 15px;
     background-color: #1CD1B0;
-    height: 38px;
-margin: 0%;}
+    margin: 0%;
+    padding: 15px;
+    margin: 0%;}
 h1 {font-size: 40px;
     background-color: #00669F;
-    height: 101px;
-    margin: 0% 0% 100px 0%;}
+    padding: 15px;
+    margin: 0% 0% 20px 0%;
+    font-weight: normal;
+    position: sticky;
+    top: 0px;
+    z-index: 10;}
 
 /********main********/
+main {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
 /**sections**/
+
 #batman1 , #batman2 , #harley {
-    box-sizing: border-box
-    ;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;}
+h2 {text-align:center;}
+p {text-align: justify;}
+
+.cara {
+    border-radius: 50%;
 }
 
