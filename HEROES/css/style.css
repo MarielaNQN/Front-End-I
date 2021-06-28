@@ -8,7 +8,7 @@ body {font-family: 'Roboto', sans-serif;}
     margin: 0%;
     padding: 15px;
     margin: 0%;}
-h1 {font-size: 40px;
+.banner {font-size: 40px;
     background-color: #00669F;
     padding: 15px;
     margin: 0% 0% 20px 0%;
@@ -20,19 +20,52 @@ h1 {font-size: 40px;
 /********main********/
 main {
     position: relative;
-    display: flex;
-    justify-content: space-around;
+
 }
 /**sections**/
 
 #batman1 , #batman2 , #harley {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;}
-h2 {text-align:center;}
-p {text-align: justify;}
+    background-color: #F3F3F3;
+    margin: 152px auto;
+    padding: 5px;
+    position: absolute;
+height: 529px;
+width: 300px;}
+#batman1 {
+left: 32px;
+}
+#harley {
+    left: 362px;
+}
+#batman2 {
+    left: 692px;
+}
+h2 {
+position: absolute;
+top:266px;
+left: 95px;
+font-weight: 400;}
+p {text-align: justify;
+position: absolute;
+top:310px;}
 
+.corazon {
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+    z-index: 5;
+}
 .cara {
     border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    right: 90px;
+    top:128px;
 }
-
+footer {
+    padding: 16px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    position: relative;
+    top:972px;
+}
