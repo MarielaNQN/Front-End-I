@@ -31,7 +31,8 @@ header {
 main {
     display: flex;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    flex-flow: nowrap;}
 
 /**sections**/
 section {
@@ -80,4 +81,22 @@ a {
 
 footer {
     
+}
+
+    /*Tablets*/
+@media (max-width:768px) {
+main {
+    flex-flow: wrap;}
+section {
+    width: 50%;}
+}
+
+
+
+    /*Smartphones*/
+@media (max-width:460px) {
+    main {
+        flex-flow: wrap;}
+    section {
+        width: 100%;}
 }
