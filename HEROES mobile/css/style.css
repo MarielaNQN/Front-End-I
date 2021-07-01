@@ -1,8 +1,7 @@
 /********Generales*********/
 body {font-family: 'Roboto', sans-serif;
 display: flex;
-flex-direction: column;
-margin: 0%;}
+flex-direction: column;}
 
 header , footer , a {
     background-color:#00669F;
