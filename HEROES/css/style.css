@@ -2,6 +2,11 @@
 body {font-family: 'Roboto', sans-serif;}
 
 /*********header**********/
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
 #bardiscount {
     font-size: 15px;
     background-color: #1CD1B0;
@@ -13,18 +18,19 @@ body {font-family: 'Roboto', sans-serif;}
     padding: 15px;
     margin: 0% 0% 20px 0%;
     font-weight: normal;
-    position: sticky;
-    top: 0px;
-    z-index: 10;}
+}
 
 /********main********/
 main {
     position: relative;
 
 }
+#carteles {
+    text-align: center;
+}
 /**sections**/
 
-#batman1 , #batman2 , #harley {
+#batman1 , #batman2 , #harley , #superman {
     background-color: #F3F3F3;
     margin: 152px auto;
     padding: 5px;
@@ -40,6 +46,19 @@ left: 32px;
 #batman2 {
     left: 692px;
 }
+#superman {
+    left: 1022px;
+    
+}
+#superman img.fondo
+{width: 300px;
+    height: 193px;
+border-radius:5%}
+
+#superman img.cara {
+    left: 90px;
+}
+
 h2 {
 position: absolute;
 top:266px;
