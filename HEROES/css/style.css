@@ -5,8 +5,7 @@ body {font-family: 'Roboto', sans-serif;}
 header {
     position: sticky;
     top: 0px;
-    z-index: 10;
-}
+    z-index: 10;}
 #bardiscount {
     font-size: 15px;
     background-color: #1CD1B0;
@@ -17,20 +16,16 @@ header {
     background-color: #00669F;
     padding: 15px;
     margin: 0% 0% 20px 0%;
-    font-weight: normal;
-}
+    font-weight: normal;}
 
 /********main********/
 main {
-    position: relative;
-
-}
+    position: relative;}
 #carteles {
-    text-align: center;
-}
-/**sections**/
+    text-align: center;}
 
-#batman1 , #batman2 , #harley , #superman {
+/**sections**/
+#batman1 , #batman2 , #harley {
     background-color: #F3F3F3;
     margin: 152px auto;
     padding: 5px;
@@ -38,35 +33,30 @@ main {
 height: 529px;
 width: 300px;}
 #batman1 {
-left: 32px;
-}
+left: 32px;}
 #harley {
-    left: 362px;
-}
+    left: 362px;}
 #batman2 {
-    left: 692px;
-}
-#superman {
-    left: 1022px;
-    
-}
-#superman img.fondo
-{width: 300px;
-    height: 193px;
-border-radius:5%}
+    left: 692px;}
 
-#superman img.cara {
-    left: 90px;
-}
+.boton {
+    position: absolute;
+    bottom:20px;
+    left: 120px;
+    text-decoration: none;
+    background-color: #00669F;
+    color: #F3F3F3;
+padding: 15px;}
 
 h2 {
 position: absolute;
 top:266px;
-left: 95px;
+left: 98px;
 font-weight: 400;}
 p {text-align: justify;
 position: absolute;
-top:310px;}
+top:310px;
+padding: 5px;}
 
 .corazon {
     position: absolute;
@@ -79,12 +69,10 @@ top:310px;}
     position: absolute;
     z-index: 5;
     right: 90px;
-    top:128px;
-}
+    top:128px;}
 footer {
     padding: 16px;
     background-color: #00669F;
     color: #FFF9F9;
     position: relative;
-    top:972px;
-}
+    top:972px;}
