@@ -1,0 +1,56 @@
+* {font-family: 'Roboto', sans-serif;}
+
+#discount , #enviar {background-color: #1CD1B0;}
+
+header , footer {background-color: #00669F;
+                color:#FFFFFF;}
+
+header , .login , #botones {display: flex;}
+
+body {margin: 0%;}
+
+/*****Header*******/
+#discount {font-size: 15px;
+    padding: 2px 20px;
+    color: #000000;
+    margin: 0px;}
+
+h1 {font-weight: normal;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 27px;
+    margin: 0px;}
+
+/******Main********/
+main {margin-left: 40%;
+margin-bottom: 8%;}
+
+.login {flex-direction: column;
+    align-items: flex-start;}
+
+h3 {font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;}
+
+input {font-family: 'Karla', sans-serif;
+    width: 130%;
+    margin: 5px;
+    padding: 5%;}
+
+#enviar , div#botones input {border-radius: 23px;
+    width: 142%;
+    margin-top: 25px;
+    font-weight: 700;}
+
+div#botones {justify-content: space-between;}
+
+p {ont-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5%;}
+
+/******Footer******/
+footer {font-size: 16px;
+    padding: 16px;
+    text-align: center;}
