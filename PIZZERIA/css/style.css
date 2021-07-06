@@ -1,63 +1,66 @@
 /*****GENERAL*****/
 * {font-family: 'Roboto', sans-serif;}
-
-main , section, #top, #primera {display: flex;}
-
+body {margin: 0px}
 header , footer {background-color: #222222;
     font-size: 16px;
-    color:#F3F3F3 ;
     display: flex;}
+a {text-decoration: none;
+        color:#F3F3F3}
 
 /*****header*****/
 header {height: 100px;
     box-sizing: border-box;
-    padding: 10px 20px;
+    padding: 10px 25px;
     justify-content: space-between;}
-
-ul#primera li { padding: 20px;}
+ul#primera {
+    display: flex;}
+ul#primera li {
+    flex-direction: row;
+    padding: 20px;}
 
 /****main****/
-main {justify-content: center;
-background-color: #E5E5E5;}
-main section {
-    width: 50%;
-    height: 350px;
-}
-section h3 {
-    color: #FC200C;}
-section span {
-    color: white;}
-#delivery {background-image: url('../img/delivery.png');
-background-repeat: no-repeat;
-border-radius: 5px;}
-
-#podio {
-    background-color: white;
-    flex-direction: column;}
-
-#podio article {
-    flex-direction: column;
-}
-
-#podio img {
-    height: 129px;
-    width: 92px;
-    border-radius: 5px;
-    padding-top: 40px;
-}
-
-#sabores {
+main {
+    display: flex;
     justify-content: space-around;
-}
-
+    background-color:#E5E5E5 ;
+    padding: 28px;}
+section {
+    width: 48%;
+height: 320px;}
+section#delivery {
+    background-image:url("../img/delivery.png");
+    background-size:cover;}
+section#podio {
+    background-color: #FFFFFF;}
+h3 {
+    color: #FC200C;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold}
+#comp {
+    color: #FFFFFF;}
+section#podio img {
+    position: absolute;
+    left:80%;
+    top: 40%;}
+section#podio p , section#podio ol {
+    position: absolute;
+    font-weight: bold;}
+section#podio p {
+    left:60%;
+    top: 33%;
+    font-size: 20px;}
+section#podio ol {
+    left: 58%;
+    top: 40%;
+    line-height: 140%;
+    font-size: 16px;}
 
 /*****footer*****/
 footer {height: 150px;
     box-sizing: border-box;
-    padding: 5px 20px;
+    padding: 5px 10px;
     justify-content: space-between;}
-
 footer img {padding: 25px;}
-
-ul#segunda li {padding-top: 3px;
+ul#segunda li {padding-top: 5px;
     padding-bottom: 5px;}
