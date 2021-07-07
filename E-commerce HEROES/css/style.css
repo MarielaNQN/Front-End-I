@@ -1,56 +1,81 @@
 * {font-family: 'Roboto', sans-serif;}
 
-#discount , #enviar {background-color: #1CD1B0;}
+#discount , #enviar, #enviar2 {background-color: #1CD1B0;}
 
 header , footer {background-color: #00669F;
-                color:#FFFFFF;}
+color:#FFFFFF;}
 
 header , .login , #botones {display: flex;}
 
-body {margin: 0%;}
+body {margin: 0%;
+height: 100vh;
+width: 100vw;}
+
+#bardisocunt , header , main , footer {
+box-sizing: border-box;}
 
 /*****Header*******/
 #discount {font-size: 15px;
-    padding: 2px 20px;
-    color: #000000;
-    margin: 0px;}
+padding: 1vh 3vw;
+color: #000000;
+margin: 0px;}
 
 h1 {font-weight: normal;
-    color: #FFFFFF;
-    font-size: 30px;
-    padding: 27px;
-    margin: 0px;}
+color: #FFFFFF;
+font-size: 30px;
+padding: 3.5vh 2vw;
+margin: 0px;}
 
 /******Main********/
-main {margin-left: 40%;
-margin-bottom: 8%;}
+main {
+width: 30vw;
+margin: 4vw 30vw;
+height: 56.5vh;}
 
 .login {flex-direction: column;
-    align-items: flex-start;}
+height: 40vh;}
 
-h3 {font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 45px;}
+h5 {font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 45px;
+margin: 2vh 0vh}
 
-input {font-family: 'Karla', sans-serif;
-    width: 130%;
-    margin: 5px;
-    padding: 5%;}
+div.login input {font-family: 'Karla', sans-serif;
+width: 100%;
+margin: 5px;
+padding: 5%;}
 
-#enviar , div#botones input {border-radius: 23px;
-    width: 142%;
-    margin-top: 25px;
-    font-weight: 700;}
+div.registro input , select {font-family: 'Karla', sans-serif;
+width: 100%;
+margin: 3px 1px;
+padding: 3%;}
 
-div#botones {justify-content: space-between;}
+select {
+    width:107%;}
 
-p {ont-family: 'Karla', sans-serif;
+#enviar , #enviar2 , #reset {border-radius: 23px;
+margin-top: 25px;
+font-weight: 700;} 
+
+input#enviar {
+width: 107%;
+margin-left: 3%;}
+
+p {font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    margin-left: 5%;}
+    margin-left: 34%;}
+
+#botones {
+    width: 100%;
+    justify-content: space-between;
+    width: 107%;
+    margin-top: 3%;
+}
 
 /******Footer******/
 footer {font-size: 16px;
     padding: 16px;
-    text-align: center;}
+    text-align: center;
+position: ;}

@@ -18,18 +18,23 @@
         </header>
     
         <main>
-            <div class=login>
-                <h3>Registro</h3>
+            <div class=registro>
+                <h5>Registro</h5>
                 <form action="registro.html">
                     <input type="text"  id=nombre name=nombre placeholder="Nombre y apellido"> <br>
                     <input type="email" id=email name=email placeholder="Correo Electrónico"> <br>
                     <input type="password" id=password name=password placeholder="Contraseña"> <br>
+                    <select name=pais placeholder=País>
+                        <option value=1>Argentina</option>
+                        <option value=2>Colombia</option>
+                        <option value=3>Brasil</option>
+                    </select>
                     <div id=botones>
-                    <input type="reset" value=Resetar> 
-                    <input id=enviar type="submit" value=Enviar>
+                    <input id=reset type="reset" value=Resetar> 
+                    <input id=enviar2 type="submit" value=Registrar>
                     </div> 
                 </form>
-                <p> ¿No tenés una cuenta? <a href="registro.html">Registrarme</a></p>
+                <p> ¿Ya tenés una cuenta? <a href="login.html">Ingresá</a></p>
             </div>  
         </main>
         <footer>
