@@ -63,19 +63,17 @@ width: 107%;
 margin-left: 3%;}
 
 p {font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    margin-left: 34%;}
+font-weight: 400;
+font-size: 12px;
+margin-left: 34%;}
 
 #botones {
-    width: 100%;
-    justify-content: space-between;
-    width: 107%;
-    margin-top: 3%;
-}
+width: 100%;
+justify-content: space-between;
+width: 107%;
+margin-top: 3%;}
 
 /******Footer******/
 footer {font-size: 16px;
-    padding: 16px;
-    text-align: center;
-position: ;}
+padding: 16px;
+text-align: center;}
