@@ -6,4 +6,19 @@ h1 {color:rgb(230, 90, 230);
 h3 {text-align: center;
     color:whitesmoke;
     background-color: violet;}
-main {text-align: center;}
+ul {text-align: center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-evenly;}
+li {
+    margin:5px;
+    height: 150px;
+    width: 150px;
+    border-color: purple;
+    border-width: 1px;
+    background-color: violet;
+}
+a {
+    text-decoration: none;
+}
